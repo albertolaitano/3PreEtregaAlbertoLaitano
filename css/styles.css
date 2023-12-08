@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #45a049;
+    color: white;
+    padding: 10px;
+    display: flex;
+}
+
+.logoContainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cartContainer {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.btnCarrito {
+    background-color: rgb(10, 117, 10);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+.modal {
+	display: none; 
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5); 
+
+}
+
+.modal-content {
+    color: black;
+	border-radius: 15px;
+	background-color: whitesmoke;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #a8a6a6;
+	width: 40%;
+}
+
+.modal ul {
+	margin: 10px 0px;
+}
+
+.modal ul li {
+	list-style: none;
+	border-bottom:1px solid rgb(182, 182, 182);
+	line-height: 40px;
+	width: 100%;
+	margin:0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.modal ul li img {
+	width:40px;
+	height: auto;
+}
+
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: calc(25% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: inline-block; 
+    vertical-align: top; /
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.cardImagen {
+    width: 100%;
+    height: 150px; 
+    object-fit: contain; 
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.cardText {
+    padding: 15px;
+}
+
+
+.cardNombre {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+
+.cardPrecio {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+
+.cardBoton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cardBoton:hover {
+    background-color: #45a049;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: calc(33.33% - 20px); 
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: calc(100% - 20px); 
+    }
+}
