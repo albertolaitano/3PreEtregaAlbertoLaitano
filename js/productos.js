@@ -65,7 +65,7 @@ const productos = [
 		nombre:"Bombilla Stanley",
 		color:"Verde",
 		categoria:"Bombillas",
-		imagen:"img/productos/Bombilla-stanley.webp",
+		imagen:"img/productos/Bombilla-Stanley.webp",
 		alt:"Bombilla Stanley",
 		precio:1200,
 		cantidad:1
