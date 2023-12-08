@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>FromUy</title>
 </head>
@@ -15,14 +13,16 @@
 
         <div class="menuContainer">
             <div class="boton end">
-                <button id="btnCarrito" class="btnCarrito">Carrito de compras</button>
+                <button id="btnCarrito" class="btnCarrito"><img src="img/cart-shopping-solid.svg" alt="Carrito de compra"></button>
             </div>
             <div id="modalCarrito" class="modal">
                 <div class="modal-content">
-                    <span class="cerrar-modal" onclick="cerrarModalCarrito()">&times;</span>
+                    
                     <div>
                         <div><h3>Carrito de Compras</h3></div>
-                        <div><ul id="listaCarrito"></ul></div>
+                        <div>
+                            <ul id="listaCarrito"></ul>
+                        </div>
                         <div><p>Importe Total: $ <span id="valorTotal">0.00</span></p></div>
                         <div class="boton">
                             <button id="botonLimpiar">Limpiar Carrito</button>
