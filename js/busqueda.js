@@ -1,3 +1,6 @@
+import productos from "./productos.js";
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const cardsContainer = document.getElementById("cardsContainer");
     const searchInput = document.getElementById('searchInput');
