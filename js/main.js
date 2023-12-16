@@ -182,3 +182,6 @@ function limpiarCarrito(){
 botonLimpiar.addEventListener("click", function(){
     return limpiarCarrito();  
 })
+
+
+

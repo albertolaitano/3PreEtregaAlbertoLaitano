@@ -12,7 +12,16 @@
     <header>
 
         <div class="menuContainer">
-            <div class="boton end">
+            
+            <div class="titulo">
+                <h1>FromUy</h1>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar productos..." oninput="search()">
+            </div>
+
+            <div class="boton">
                 <button id="btnCarrito" class="btnCarrito"><img src="img/cart-shopping-solid.svg" alt="Carrito de compra"></button>
             </div>
             <div id="modalCarrito" class="modal">
@@ -44,12 +53,16 @@
     
 
     <footer>
-
+        <div class="menuContainer">
+            <div><p>Proyecto JavaScript</p></div>
+            <div><p>Alberto Laitano</p></div>
+        </div>
     </footer>
 
 
 
     <script type="module" src="./js/main.js"></script>
+    <script src="./js/busqueda.js"></script>
 
 </body>
 </html>
